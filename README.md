@@ -1,4 +1,4 @@
-Em Python, **não existe polimorfismo de sobrecarga nativo** como em Java ou C#.  
+Em Python,( assim como javascript) **não existe polimorfismo de sobrecarga nativo** como em Java ou C#.  
 Se você tentar criar duas funções com o mesmo nome na mesma classe, **a última sobrescreve a anterior**.  
 
 Este repositório contém dois exemplos para explicar isso:
