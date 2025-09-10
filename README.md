@@ -9,7 +9,6 @@ class Animal:
     # Tentativa de criar duas versões do método
     def falar(self):
         print("O animal faz um som")
-
     # Esta sobrescreve a anterior
     def falar(self, tipo):
         print(f"O animal faz um som do tipo: {tipo}")
