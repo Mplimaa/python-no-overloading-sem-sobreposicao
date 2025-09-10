@@ -1,0 +1,18 @@
+class Animal:
+    # Tentativa de criar duas versões do método
+    def falar(self):
+        print("O animal faz um som")
+
+    # Esta "sobrescreve" a anterior def/metodo falar
+    def falar(self, tipo):
+        print(f"O animal faz um som do tipo: {tipo}")
+
+
+class Cachorro(Animal):
+    pass
+
+
+if __name__ == ("__main__"):
+    c = Cachorro()
+    c.falar()           # O animal faz um som
+    c.falar("latido")   # O animal faz um som do tipo: latido
