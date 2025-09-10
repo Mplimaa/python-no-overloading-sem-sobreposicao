@@ -62,5 +62,3 @@ Parâmetros opcionais *args / **kwargs .A sobrescrita (override) funciona normal
 
 https://docs.python.org/3/tutorial/controlflow.html#defining-functions e https://peps.python.org/pep-0443/
 
-
-Tentar chamar falar() sem argumento resulta em erro.
