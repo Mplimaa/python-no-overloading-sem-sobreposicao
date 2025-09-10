@@ -60,5 +60,7 @@ Parâmetros opcionais *args / **kwargs .A sobrescrita (override) funciona normal
 
 ### Referncias bibliográficas: ##
 
-https://docs.python.org/3/tutorial/controlflow.html#defining-functions e https://peps.python.org/pep-0443/
+https://docs.python.org/3/tutorial/controlflow.html#defining-functions 
+https://docs.python.org/pt-br/3/
+https://peps.python.org/pep-0443/
 
