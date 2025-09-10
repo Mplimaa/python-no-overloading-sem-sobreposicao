@@ -5,6 +5,9 @@ Este repositório contém dois exemplos para explicar isso:
 
 **Tentativa de sobrecarga que não funciona:**
 
+<img width="398" height="339" alt="image" src="https://github.com/user-attachments/assets/ea765be5-1abc-4618-b5d6-96c3689e7cef" />
+
+
 class Animal:
     # Tentativa de criar duas versões do método
     def falar(self):
