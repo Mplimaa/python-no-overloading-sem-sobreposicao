@@ -8,19 +8,6 @@ Este repositório contém dois exemplos para explicar isso:
 <img width="398" height="339" alt="image" src="https://github.com/user-attachments/assets/ea765be5-1abc-4618-b5d6-96c3689e7cef" />
 
 
-class Animal:
-    # Tentativa de criar duas versões do método
-    def falar(self):
-        print("O animal faz um som")
-    # Esta sobrescreve a anterior
-    def falar(self, tipo):
-        print(f"O animal faz um som do tipo: {tipo}")
-
-class Cachorro(Animal):
-    pass
-
-if __name__ == "__main__":
-    c = Cachorro()
     c.falar()           # ERRO Faltando argumento 'tipo'
     c.falar("latido")   # Funciona
 
