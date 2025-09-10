@@ -20,18 +20,9 @@ A segunda função falar(self, tipo) substituiu a primeira, tentar chamar falar(
 
 ### Arquivo : Arquivo: paliativo-para-funcionar-sobrecarga-fake ##
 
-class Animal:
-    def falar(self, tipo=None):
-        if tipo:
-            print(f"O animal faz um som do tipo: {tipo}")
-        else:
-            print("O animal faz um som")
+<img width="392" height="286" alt="image" src="https://github.com/user-attachments/assets/0105d24c-cb37-41d4-afca-95bae3d44be0" />
 
-class Cachorro(Animal):
-    pass
 
-if __name__ == "__main__":
-    c = Cachorro()
     c.falar()           # O animal faz um som
     c.falar("latido")   # O animal faz um som do tipo: latido
 
