@@ -1,0 +1,16 @@
+class Animal:
+    def falar(self, tipo=None):
+        if tipo:
+            print(f"O animal faz um som do tipo: {tipo}")
+        else:
+            print("O animal faz um som")
+
+
+class Cachorro(Animal):
+    pass
+
+
+if __name__ == "__main__":
+    c = Cachorro()
+    c.falar()           # O animal faz um som
+    c.falar("latido")   # O animal faz um som do tipo: latido
